@@ -32,6 +32,8 @@ namespace ReactStudio.PresentationLayer
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.label33 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.label39 = new System.Windows.Forms.Label();
+            this.btnAhmad = new Guna.UI2.WinForms.Guna2Button();
             this.label40 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
@@ -47,6 +49,7 @@ namespace ReactStudio.PresentationLayer
             this.panel18 = new System.Windows.Forms.Panel();
             this.label34 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.btnNour = new Guna.UI2.WinForms.Guna2Button();
             this.panel19 = new System.Windows.Forms.Panel();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.panel13 = new System.Windows.Forms.Panel();
@@ -88,15 +91,12 @@ namespace ReactStudio.PresentationLayer
             this.label17 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label46 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnNour = new Guna.UI2.WinForms.Guna2Button();
-            this.btnAhmad = new Guna.UI2.WinForms.Guna2Button();
-            this.label39 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel20.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -142,6 +142,35 @@ namespace ReactStudio.PresentationLayer
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(603, 64);
             this.panel20.TabIndex = 36;
+            // 
+            // label39
+            // 
+            this.label39.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label39.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(30, 0);
+            this.label39.Name = "label39";
+            this.label39.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
+            this.label39.Size = new System.Drawing.Size(573, 64);
+            this.label39.TabIndex = 40;
+            this.label39.Text = "user";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label39.Click += new System.EventHandler(this.label39_Click);
+            // 
+            // btnAhmad
+            // 
+            this.btnAhmad.Animated = true;
+            this.btnAhmad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.btnAhmad.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnAhmad.ForeColor = System.Drawing.Color.White;
+            this.btnAhmad.Image = ((System.Drawing.Image)(resources.GetObject("btnAhmad.Image")));
+            this.btnAhmad.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnAhmad.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnAhmad.Location = new System.Drawing.Point(543, 0);
+            this.btnAhmad.Name = "btnAhmad";
+            this.btnAhmad.Size = new System.Drawing.Size(60, 64);
+            this.btnAhmad.TabIndex = 37;
+            this.btnAhmad.Click += new System.EventHandler(this.btnAhmad_Click);
             // 
             // label40
             // 
@@ -328,6 +357,21 @@ namespace ReactStudio.PresentationLayer
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(603, 64);
             this.panel17.TabIndex = 39;
+            // 
+            // btnNour
+            // 
+            this.btnNour.Animated = true;
+            this.btnNour.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.btnNour.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnNour.ForeColor = System.Drawing.Color.White;
+            this.btnNour.Image = ((System.Drawing.Image)(resources.GetObject("btnNour.Image")));
+            this.btnNour.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnNour.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnNour.Location = new System.Drawing.Point(543, 0);
+            this.btnNour.Name = "btnNour";
+            this.btnNour.Size = new System.Drawing.Size(60, 64);
+            this.btnNour.TabIndex = 37;
+            this.btnNour.Click += new System.EventHandler(this.btnNour_Click);
             // 
             // panel19
             // 
@@ -532,7 +576,7 @@ namespace ReactStudio.PresentationLayer
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(603, 71);
             this.label41.TabIndex = 21;
-            this.label41.Text = "DEV TEAM";
+            this.label41.Text = "TEAM";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label41.Click += new System.EventHandler(this.label41_Click);
             // 
@@ -839,8 +883,23 @@ namespace ReactStudio.PresentationLayer
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(816, 117);
             this.label11.TabIndex = 18;
-            this.label11.Text = "FLUTTY SOFTWARE";
+            this.label11.Text = "React Studio Software";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.Animated = true;
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button1.Location = new System.Drawing.Point(448, 232);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(60, 64);
+            this.guna2Button1.TabIndex = 38;
             // 
             // panel7
             // 
@@ -910,64 +969,6 @@ namespace ReactStudio.PresentationLayer
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frm_MouseDown);
             this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.frm_MouseMove);
             this.label1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.frm_MouseUp);
-            // 
-            // btnNour
-            // 
-            this.btnNour.Animated = true;
-            this.btnNour.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.btnNour.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnNour.ForeColor = System.Drawing.Color.White;
-            this.btnNour.Image = ((System.Drawing.Image)(resources.GetObject("btnNour.Image")));
-            this.btnNour.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnNour.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnNour.Location = new System.Drawing.Point(543, 0);
-            this.btnNour.Name = "btnNour";
-            this.btnNour.Size = new System.Drawing.Size(60, 64);
-            this.btnNour.TabIndex = 37;
-            this.btnNour.Click += new System.EventHandler(this.btnNour_Click);
-            // 
-            // btnAhmad
-            // 
-            this.btnAhmad.Animated = true;
-            this.btnAhmad.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.btnAhmad.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnAhmad.ForeColor = System.Drawing.Color.White;
-            this.btnAhmad.Image = ((System.Drawing.Image)(resources.GetObject("btnAhmad.Image")));
-            this.btnAhmad.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnAhmad.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnAhmad.Location = new System.Drawing.Point(543, 0);
-            this.btnAhmad.Name = "btnAhmad";
-            this.btnAhmad.Size = new System.Drawing.Size(60, 64);
-            this.btnAhmad.TabIndex = 37;
-            this.btnAhmad.Click += new System.EventHandler(this.btnAhmad_Click);
-            // 
-            // label39
-            // 
-            this.label39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label39.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(30, 0);
-            this.label39.Name = "label39";
-            this.label39.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
-            this.label39.Size = new System.Drawing.Size(573, 64);
-            this.label39.TabIndex = 40;
-            this.label39.Text = "user";
-            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label39.Click += new System.EventHandler(this.label39_Click);
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(27)))), ((int)(((byte)(27)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button1.Location = new System.Drawing.Point(448, 232);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(60, 64);
-            this.guna2Button1.TabIndex = 38;
             // 
             // About
             // 
