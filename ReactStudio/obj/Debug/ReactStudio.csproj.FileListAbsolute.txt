@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\bin\Debug\ReactStudio.exe.config
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\bin\Debug\ReactStudio.exe
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\bin\Debug\ReactStudio.pdb
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\bin\Debug\Guna.UI2.dll
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.PresentationLayer.About.resources
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.Home.resources
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.PresentationLayer.OptionsUI.resources
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.Properties.Resources.resources
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStu.D0E40F6C.Up2Date
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.exe
+C:\Users\HP\Desktop\ReactStudio\ReactStudio\obj\Debug\ReactStudio.pdb
